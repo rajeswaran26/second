@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:transparent;
+}
+
+li,a,button{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0px 40px;
+}
+nav ul li a:hover
+{
+    color:blue;
+    transition: all 0.3s ease 0s;
+}
+header > button{
+    padding: 9px 25px;
+    background-color:green;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.wrapper{
+    background: url("..//css/img/landing-pages-examples.jpg") no-repeat center / cover;
+    width: 100px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+
+/*.wrapper:before{
+    position:absolute;
+    content: '';
+    background-image: linear-gradient(to right,);
+    width: 100px;
+    height: 100px;
+    top: 0;
+    z-index:-1;
+}*/
+.content{
+    display:flex;
+    padding: 80px 10px;
+    justify-content: space-between;
+    color:#fff;
+}
+.img-info h1{
+    font-size: 40px;
+}
+.img-info p{
+margin: 30px 0;
+font-weight: 400;
+line-height: 2;
+}
+.btn{
+    display: inline-block;
+    font-weight: 400px;
+    color: blue;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none ;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transmition: colorv 0.15s;
+}
